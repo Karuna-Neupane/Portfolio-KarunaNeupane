@@ -1,0 +1,149 @@
+*{
+	font-family: arial;
+	background-color: #FFEFD5;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	background-color: lavender;
+}
+
+.header h1, nav, ul{
+	background-color: lavender;
+}
+
+h1 {
+    transition: transform 0.3s ease; /* smooth animation */
+}
+
+h1:hover {
+    transform: scale(1.1); /* zoom in */
+}
+
+
+h2:hover{
+	color: #4CAF50;
+}
+
+.link{
+	font-size: 20px;
+	display: flex;
+	list-style-type: none;
+	color: black;
+	margin-top: 25px;
+}
+
+a{
+	padding-left: 10px;
+	text-decoration: none;
+	background-color: lavender;
+}
+
+a:hover{
+	color: red;
+}
+
+#about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-me{
+	display: flex;
+}
+
+#me{
+	width: 800px;
+	margin-right: 20px;
+}
+
+#user-img{
+	height: 200px;
+	width: 200px;
+}
+
+#projects{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#project{
+	display: flex;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; 
+  height: 300px;
+}
+
+#img1, #img2{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #EADBC8;
+	padding: 30px;
+	margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+input, textarea{
+	width: 350px;
+	padding: 10px;
+	margin-bottom: 20px;
+	display: block;
+	border: 2px solid #EADBC8;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #4CAF50; /* green border */
+    outline: none; /* remove default blue glow */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* glow */
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50; /* green button */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* darker on hover */
+}
+
+
+.mydetails{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#pno, #mail{
+	margin-left: 20px;
+}
+
+footer{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lavender;
+}
